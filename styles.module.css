@@ -1,0 +1,25 @@
+.container{
+    width: 80%;
+    border: 2px solid red;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.card{
+    width: 15%;
+    height: 15rem;
+    border: 2px dashed black;
+    margin-left: 0.8rem;
+    margin-top: 1em;
+    border-radius: 4px;
+         
+}   
+
+.rowBreak {
+    width: 100%;
+    flex-basis: 100%;
+    height: 0;
+  }
+  
